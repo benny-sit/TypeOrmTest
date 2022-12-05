@@ -1,0 +1,22 @@
+GET http://localhost:3001/users
+
+###
+
+POST http://localhost:3001/users
+Content-Type: application/json
+
+{
+    "email": "test@mail",
+    "password": "test",
+    "user_data": { 
+        "firstName": "John",
+        "lastName": "Doe",
+        "age": 25
+    }
+}
+
+###
+
+GET http://localhost:3001/users/3
+
+###
